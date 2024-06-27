@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.main-div {
+  min-height: 100vh;
+  background: #83b6c5;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+.child-div {
+  margin: auto;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+
+input {
+  margin: auto;
+  min-width: 25.6rem;
+  height: 3.4rem;
+  padding: 2rem 1.2rem;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+}
+
+.addItem{
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+    margin-left: 2rem;
+    min-width: 9rem;
+    margin-top: 2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 28px;
+    background-color: #ccc;
+}
+.btn:hover{
+  background-color: rgb(10, 35, 119);
+  color: white;
+}
+ .eachItem {
+    margin: 1rem auto;
+    background: #fff;
+    padding: 1.2rem 1rem;
+    border-radius: 0.5rem;
+    min-width: 10rem;
+    word-break: break-word;
+    background: rgb(10, 35, 119);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .eachItem:hover {
+    background: rgb(249, 249, 252);
+    color: rgb(10, 35, 119);
+  }
+  
+  .showItems .eachItem h3 {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+    
+  .eachItem:hover h3 {
+    color: rgb(10, 35, 119);
+  }
